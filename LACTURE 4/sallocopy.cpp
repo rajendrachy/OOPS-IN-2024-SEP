@@ -16,6 +16,7 @@ name = n;
 
 void display () {
     cout << id << " " << name << endl;
+    
 }
 };
 
