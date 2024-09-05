@@ -3,9 +3,9 @@
 
 using namespace std;
 
-class student {
+class student {  //class creation
     public:
-    int id; // data menber
+    int id; // data member
     string name; // date member
 
     void insert (int i, string n) { // creating a function
@@ -33,6 +33,7 @@ int main () {
     s3->insert(103, "True");
 
     // or,  (*s3).insert(104, "True");
+     
      
 
      s1.display();

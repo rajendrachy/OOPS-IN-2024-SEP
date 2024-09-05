@@ -21,6 +21,7 @@ public:
 int main() {
     student s1; // static obj
     student s2; // static obj
+    
     student* s3 = new student; // dynamic obj
 
     int id;
