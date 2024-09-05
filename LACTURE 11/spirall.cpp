@@ -12,7 +12,7 @@ void printSpiral(int a[ROWS][COLS], int r, int c) {
   
 
   int left = 0, top = 0, right = c - 1, bottom = r - 1;
-while (left <=right && top <= bottom) {
+while (left <= right && top <= bottom) {
 
     if(top <= bottom) {
      for(int i=top; i<=bottom; i++) {
@@ -29,19 +29,20 @@ while (left <=right && top <= bottom) {
    }
    bottom--;
 
-   if(top <= bottom) {
+  if(left <= right) {
     for(int i=bottom; i>=top; i--) {
         cout<<a[i][right] << endl;
     }
    }
+
    right--;
 
 
-   if(left <= right) {
-    for(int i=right; i>=right; i--) {
+    if(top <= bottom) {
+    for(int i=right; i>=left; i--) {
       cout << a[top][i] << endl;
     }
-   }
+    }
    top++;
 
 }
