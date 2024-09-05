@@ -15,7 +15,7 @@ class student {
 
 
     void display() {
-        cout << id << " , " << name << endl;
+        cout << id << ", " << name << endl;
     }
 };
 
@@ -25,7 +25,7 @@ int main () {
 
     student s1;
     // s1.id = 101;
-    s1.name = "RAjendra";
+    s1.name = "Rajendra";
 
     s1.insert(101, "Rajendra");
     s1.display();

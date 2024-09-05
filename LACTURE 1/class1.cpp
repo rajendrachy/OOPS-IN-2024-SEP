@@ -21,7 +21,7 @@ public:
 int main() {
     student s1; // static obj
     student s2; // static obj
-    
+
     student* s3 = new student; // dynamic obj
 
     int id;
@@ -40,12 +40,16 @@ int main() {
     // Input for student s3
     cout << "Enter ID and Name for student 3: ";
     cin >> id >> name;
-    s3->insert(id, name);
+    //s3->insert(id, name);
+    // or
+    (*s3).insert(id,name);
 
     // Displaying the details
     s1.display();
     s2.display();
-    s3->display();
+    //s3->display();
+    // or
+    (*s3).display();
 
     delete s3; // free the dynamically allocated memory
 
