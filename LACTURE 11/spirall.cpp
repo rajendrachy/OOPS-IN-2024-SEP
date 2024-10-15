@@ -14,6 +14,8 @@ void printSpiral(int a[ROWS][COLS], int r, int c) {
   int left = 0, top = 0, right = c - 1, bottom = r - 1;
 while (left <= right && top <= bottom) {
 
+
+
     if(top <= bottom) {
      for(int i=top; i<=bottom; i++) {
         cout << a[i][left] << endl;
@@ -34,6 +36,7 @@ while (left <= right && top <= bottom) {
         cout<<a[i][right] << endl;
     }
    }
+
 
    right--;
 
