@@ -10,7 +10,8 @@ using namespace std;
 
 class A {
  public:
- virtual void display() {
+ virtual void display() 
+ {
     cout << "It's a class A" << endl;
  }
 };
@@ -22,6 +23,7 @@ class B : public A {
     cout << "It's a class B" << endl;
 
  }
+
 };
 
 int  main() {
@@ -30,6 +32,7 @@ int  main() {
 // //    obj.display(); // call B
 //    obj.A::display(); // call A
 //     return 0;
+
 
 A *ptr;
 B obj;

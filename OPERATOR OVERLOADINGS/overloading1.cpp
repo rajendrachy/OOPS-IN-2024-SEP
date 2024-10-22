@@ -26,6 +26,7 @@ void display(double salary) {
 
 
 
+
 int main() {
    display("Rajendra chaudhary");
    display(23);

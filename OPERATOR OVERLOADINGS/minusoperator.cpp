@@ -25,6 +25,7 @@ class A {
 };
 
 
+
 void A :: operator -() {
    a = -a;
    b = -b;
