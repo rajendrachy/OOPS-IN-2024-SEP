@@ -2,7 +2,7 @@
 // ans-> virtual constructor creation is not possible
 // constructor doesnot be a static
 // 2. can we create a virtual distructor ? 
-// ans-> possible in the below example
+// ans-> possible in the below example ->
 //virtual distructor is avoid a memory leaks i.e pointer or objects handles to files , databese
 
 

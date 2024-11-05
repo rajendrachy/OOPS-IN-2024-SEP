@@ -1,3 +1,4 @@
+
 // // what is polymorphism ?? 
 // ans-> it is a concept in which an object can be treated in different ways.
  //poly + morphism => many + forms
@@ -8,3 +9,8 @@
 // types of the polymorphism 
 // 1. static polymorphism -> function overload => compile time polymorphism
 //2. dynamic polymorphism -> function override
+
+
+
+
+

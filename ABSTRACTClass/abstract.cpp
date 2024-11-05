@@ -4,7 +4,7 @@
 
 
 // _______Syntax__________
-// class A { // we cannot make a obj of this abstract calss
+// class A { // we can-not create a obj of this abstract calss
 // public:
 // virtual void show() = 0;
 // }

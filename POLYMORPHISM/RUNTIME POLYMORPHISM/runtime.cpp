@@ -1,5 +1,5 @@
 // _______Run Time polymorphism_________
-// function overriding -> smae parameter function in the class
+// function overriding -> same parameter function in the class
 #include<iostream>
 using namespace std;
 class A {
