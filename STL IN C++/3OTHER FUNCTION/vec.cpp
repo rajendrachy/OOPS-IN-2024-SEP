@@ -1,9 +1,10 @@
 // Time complexicity -> O(n)
 
 // vector
+// Erase and Insert => They are costly functions // Time complexicity -> O(n)
 // 1. erase -> change the size but the capacity will be same or Not Change
 // 2. insert
-// 3. clear -> change the size(empty) but the capacity will be same or Not Change 
+// 3. clear -> change the size(empty) but the capacity will remain same or Not Change 
 // 4. empty -> output 0 for false and 1 for true
 
 
@@ -18,11 +19,12 @@
 //     vector<int> vec = {1, 2, 3, 4, 5}; 
 //     // vec.erase(vec.begin()); //index 0 ->  1 erase
 //     vec.erase(vec.begin() +2); // index 2 -> 3 erase
-
     
+
 //     for(int val : vec) {
 //         cout << val << " ";
 //     }
+
 //     cout << endl;
 
 //     return 0;
@@ -41,7 +43,7 @@
 
 //     vector<int> vec = {1, 2, 3, 4, 5}; 
     
-//     vec.erase(vec.begin() +1, vec.begin() +3); // index 1 to 2 erase 3 index not include
+//     //vec.erase(vec.begin() +1, vec.begin() +3); // index 1 to 2 erase 3 index not include
     
 //     for(int val : vec) {
 //         cout << val << " ";
@@ -89,9 +91,9 @@
 
 // int main() {
 
-//     vector<int> vec = {1, 2, 3, 4, 5}; 
+//     vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9}; 
     
-//     vec.clear(); // empty the array
+//      vec.clear(); // empty the array
 //     for(int val : vec) {
 //         cout << val << " ";
 //     }
@@ -109,23 +111,23 @@
 
 // 4. _______________EMPTY__________________
 
-#include<iostream>
-#include<vector>
-using namespace std;
+// #include<iostream>
+// #include<vector>
+// using namespace std;
 
-int main() {
+// int main() {
 
-    vector<int> vec = {1, 2, 3, 4, 5}; 
+//     vector<int> vec = {1, 2, 3, 4, 5}; 
     
-    vec.clear(); // empty the array
-    for(int val : vec) {
-        cout << val << " ";
-    }
-    cout << endl;
+//     vec.clear(); // empty the array
+//     for(int val : vec) {
+//         cout << val << " ";
+//     }
+//     cout << endl;
 
 
 
-   cout << "IsEmpty : " << vec.empty() << endl; // 1 -> True , 0 -> False
-    return 0;
-}
+//    cout << "IsEmpty : " << vec.empty() << endl; // 1 -> True , 0 -> False
+//     return 0;
+// }
 
