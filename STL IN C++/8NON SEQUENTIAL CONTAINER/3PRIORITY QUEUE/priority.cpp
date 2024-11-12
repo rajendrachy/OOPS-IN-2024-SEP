@@ -2,7 +2,7 @@
 // MaxHeap and MinHeap are Complite Binary Tree (CBT)
 
 // Priority Value -> It is by default largest Value
-// push. emplace -> O(logn)
+// push.emplace -> O(logn)
 // top -> O(1) constant
 // pop -> O(logn)
 
@@ -18,10 +18,9 @@
 using namespace std;
 
 
-
 int main () {
-    //priority_queue<int> q; // greater to smaller
-    priority_queue<int, vector<int>, greater<int>> q;
+    priority_queue<int> q; // Greater to Smaller
+    //priority_queue<int, vector<int>, greater<int>> q; // Smaller to Greater
 
     q.push(5);
     q.push(3);

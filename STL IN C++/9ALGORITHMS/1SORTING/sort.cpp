@@ -10,13 +10,14 @@
 #include<algorithm>
 
 using namespace std;
+
 // ___________________Ascending Order Sort____________________
 
 // int main () {
 
 //     int arr[5] = {3, 5, 1, 8, 2};
 
-//     sort(arr, arr+5); // default sort in the Ascending orders
+//     sort(arr, arr+5); // default sort in the Ascending orders => sort(arr, arr+n) => arr-> start && arr+n -> end
 
 
 // for(int val : arr) {
@@ -54,7 +55,7 @@ using namespace std;
 
 // ____________________Descending Order Sort_______________________
 
-// sort(arr, arr+n, greater<int>())
+// sort(arr, arr+n, greater<int>()) // where, greater<int> => comparator or Functor
 
 // int main () {
 
@@ -95,6 +96,13 @@ using namespace std;
 
 
 
+
+
+
+
+
+
+
 // ________In Pairs // sort acording to the second value______________
 
 // bool  comparator (pair <int, int> p1, pair<int, int> p2) {
@@ -110,7 +118,7 @@ using namespace std;
 // int main () {
 
 //    vector<pair<int, int>> vec = {{3,1}, {2, 1}, {7, 1}, {5, 2}};
-//    sort(vec.begin(), vec.end(), comparator); // sort based on the first value
+//    sort(vec.begin(), vec.end(), comparator); // sort based on the Second value
 
 // for(auto p : vec) {
 //     cout << p.first <<"  " << p.second << endl;;
@@ -129,9 +137,9 @@ using namespace std;
 // int main () {
 
 //    vector<int> vec = {1, 2, 3, 4, 5};
-//    reverse(vec.begin(), vec.end());
+//    //reverse(vec.begin(), vec.end());
 
-// //  reverse(vec.begin()+1, vec.end()+3);
+//   reverse(vec.begin()+1, vec.begin()+3); // Reverse in the range
 
 //    for(auto val : vec) {
 //     cout << val << " ";
@@ -140,22 +148,25 @@ using namespace std;
 //    cout << endl;
 
 //     return 0;
+
 // }
+
+
 
 
 
 
 // _______________Next Permutation________________
 
-// int main () {
+int main () {
 
-//     string s = "abc";
+    string s = "abc";
 
-//     next_permutation(s.begin(), s.end());
-//     // prev_permutation(s.begin(), s.end());
-//     cout << s << endl;
-//     return 0;
-// }
+    next_permutation(s.begin(), s.end());
+    // prev_permutation(s.begin(), s.end());
+    cout << s << endl;
+    return 0;
+}
 
 
 
@@ -176,12 +187,14 @@ using namespace std;
 
 // _______________Swap________________
 
-int main () {
+// int main () {
 
-    int a = 5, b = 10;
+//     int a = 5, b = 10;
 
-    swap(a, b);
+//     swap(a, b);
 
-    cout << "a = " << a << " b = " << b << endl;
-    return 0;
-}
+//     cout << "a = " << a << " b = " << b << endl;
+//     return 0;
+// }
+
+

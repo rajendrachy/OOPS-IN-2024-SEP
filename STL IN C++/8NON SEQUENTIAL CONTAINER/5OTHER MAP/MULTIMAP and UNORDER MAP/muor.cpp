@@ -1,4 +1,4 @@
-// multi map => [] = square bracket (Not use)
+// Multi map => [] = Square bracket (Not use)
 
 // ____________________Multi Map________________________
 
@@ -39,7 +39,7 @@
 
 
 
-//________________Unordered Map_______________ In random Order
+//________________Unordered Map_______________ In random Order____________
 
 #include<iostream>
 #include<vector>

@@ -21,7 +21,7 @@ using namespace std;
 
 int main () {
 
-  map<string, int> m; // map -> sort in the ascending order
+  map<string, int> m; // map -> sort in the ascending order character (a, b, c, d......) // string -> Key and int -> value
 
   m["tv"] = 100;
   m["laptop"] = 100;
