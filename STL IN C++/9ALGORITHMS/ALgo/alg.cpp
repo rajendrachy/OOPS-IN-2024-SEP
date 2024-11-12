@@ -50,6 +50,7 @@ using namespace std;
 
 
 // __________Count Set Bits__________________
+// 1 byte = 8 bits
 
 int main()
 {
