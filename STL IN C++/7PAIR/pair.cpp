@@ -40,13 +40,14 @@
 using namespace std;
 
 int main () {
+    
     vector<pair<int, int>> vec = {{1,2}, {2, 3}, {3,4}};
 
      vec.push_back({4, 5}); // make pair using a { } // insert end of the vector
      vec.emplace_back(4, 5); // automatically make a pair without using -> { }   // in-place object create
 
     for(auto p : vec) {
-        
+
         cout << p.first << " " << p.second << " , " << endl;
     }
     cout << endl;

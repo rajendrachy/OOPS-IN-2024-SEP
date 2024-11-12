@@ -18,7 +18,7 @@ using namespace std;
 
 //     while(!s.empty()) {
 //         cout << s.top() << " ";
-//         s.pop();
+//          s.pop();
 //     }
 
 //    cout << endl;
@@ -35,7 +35,8 @@ using namespace std;
 
 
 
-// _____________________________
+
+// _____________STACK______________
 
 
 int main () {
@@ -65,9 +66,4 @@ stack <int> s2;
 
     return 0;
 }
-
-
-
-
-
 

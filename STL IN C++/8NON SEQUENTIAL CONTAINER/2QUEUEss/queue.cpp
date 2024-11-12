@@ -1,4 +1,4 @@
-// QUEUE -> First In First Out
+// QUEUE -> First In First Out (FIFO)
 
 #include<iostream>
 #include<vector>
@@ -25,3 +25,5 @@ int main () {
 
     return 0;
 }
+
+
