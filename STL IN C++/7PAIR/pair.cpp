@@ -29,6 +29,7 @@
 
 
 
+
 // __________________Vector of pair________________________
 
 #include<iostream>
@@ -45,9 +46,13 @@ int main () {
      vec.emplace_back(4, 5); // automatically make a pair without using -> { }   // in-place object create
 
     for(auto p : vec) {
-        cout << p.first << " " << p.second << endl;
+        
+        cout << p.first << " " << p.second << " , " << endl;
     }
+    cout << endl;
     
     return 0;
 }
+
+
 

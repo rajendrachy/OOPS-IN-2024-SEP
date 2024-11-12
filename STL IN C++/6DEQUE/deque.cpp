@@ -1,7 +1,7 @@
-// Deque => Double Endes Queue
-// Dequeue -> POP the element  + differ then DEQUE 
+// Deque => It Stands -> Double Ended Queue
+// Dequeue -> POP the element from and queue  + differ then DEQUE 
 
-// List ->  DDl -> list[2] not Valid
+// List ->  DDl -> list[2] not Valid => Data Definition Language.
 // Deque -> Dynamic Arrays -> d[2] is Valid
 
 
@@ -23,6 +23,8 @@ int main() {
     cout << endl;
 
     cout <<"The value at idx 2 is :  " <<  d[2] << endl; // in List this is not allowed
+    cout <<"The value at idx 2 is :  " <<  d.at(2) << endl; // in List this is not allowed
+
 
     return 0;
 }
