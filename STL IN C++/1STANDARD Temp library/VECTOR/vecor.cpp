@@ -3,7 +3,8 @@
 
 #include<iostream>
 #include<vector>
-// ________size() and capacity()_______________
+
+// ________Size() and Capacity()_______________
 
 using namespace std;
 
@@ -72,7 +73,8 @@ using namespace std;
 //     vec.emplace_back(6); // Similar to the --->>> push_back() 
 
 
-//     vec.pop_back(); // pop ot delete the last element [i.e -> 6]
+//     vec.pop_back(); // pop to delete the last element  [i.e -> 6]
+
 
 //     for(int val : vec) {
 //         cout << val << " ";
@@ -131,7 +133,7 @@ int main() {
     vec.emplace_back(6); // Similar to the --->>> push_back() 
 
 
-    vec.pop_back(); // pop ot delete the last element
+    vec.pop_back(); // pop to delete the last element
 
     for(int val : vec) {
         cout << val << " ";
@@ -140,7 +142,7 @@ int main() {
 
 
 
-     cout << "front : " << vec.front() << endl;
+     cout << "Front : " << vec.front() << endl;
      cout << "Back : " << vec.back() << endl;
 
     return 0;
@@ -150,3 +152,4 @@ int main() {
 
 
 // This all have time complexicity -> O(1)
+

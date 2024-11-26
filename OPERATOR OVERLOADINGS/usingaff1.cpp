@@ -20,7 +20,7 @@ class Box {
    }
 
 
-   // using friend function overloading a operator + 
+   // Using friend function overloading a operator + 
 
    friend Box operator + (Box, Box); // Syntax :-> return type operator <operator> (parameter)
    

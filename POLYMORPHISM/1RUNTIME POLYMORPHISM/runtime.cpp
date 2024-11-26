@@ -22,7 +22,7 @@ int main () {
 //    obj.display();
 //    obj.A::display();
 
-// ______using a function overriding methods___
+// ______Using a function overriding methods___
 
 A *ptr;
 B obj;
@@ -30,3 +30,5 @@ ptr = &obj;
 ptr->display();
     return 0;
 }
+
+

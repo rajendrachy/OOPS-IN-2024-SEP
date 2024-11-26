@@ -1,4 +1,4 @@
-// ___________Overloading of the uranary operator in the c++____________________
+// ___________Overloading of the Uranary operator in the c++____________________
 
 #include<iostream>
 using namespace std;
@@ -26,7 +26,9 @@ class A {
 
 
 
-void A :: operator -() {
+void A :: operator -() 
+{
+
    a = -a;
    b = -b;
    c = -c;
