@@ -1,7 +1,8 @@
 // _______Run Time polymorphism_________
-// function overriding -> same parameter function in the class
+// Function overriding -> same parameter function in the class
 #include<iostream>
 using namespace std;
+
 class A {
     public:
     virtual void display() { // virtual -> ignore this due to the virtual keyword, this function is override

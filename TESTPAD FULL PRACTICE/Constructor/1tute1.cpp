@@ -11,8 +11,10 @@ string subject;
 string sal;
 
 
+
 //---> methods //----> member functions
 void changedept(string newdept) {
+
     dept = newdept;
 }
 //----->  setter
@@ -25,10 +27,12 @@ string getsal() {
 }
 
 };
+
+
 int main () {
    
-   teacher t1;
-   t1.name = "Sharadha";
+   teacher t1; // Class teacher Object Creation
+   t1.name = "Sharada";
    t1.subject = "C++";
    t1.sal = "one lakh";
   
@@ -38,3 +42,6 @@ int main () {
    cout<<t1.sal<<endl;
     return 0;
 }
+
+
+

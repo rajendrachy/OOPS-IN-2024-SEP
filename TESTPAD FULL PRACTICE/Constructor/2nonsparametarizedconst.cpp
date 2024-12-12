@@ -5,9 +5,11 @@ class Teacher {
     private:
     double salary;
     public:
+    // Non-Parameterized constructors
     Teacher() {
         cout <<"Hi, i am a constructor\n";
     }
+
 
     string name;
     string dept;
@@ -29,7 +31,9 @@ class Teacher {
 
 };
 
+
 int main () {
+    
 Teacher t1; //constructor call
 t1.name = "Rajendra";
 t1.subject = "C++";
@@ -40,3 +44,6 @@ cout << t1.name <<endl;
 cout << t1.getSalary() << endl;
 return 0;
 }
+
+
+

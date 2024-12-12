@@ -11,3 +11,4 @@ int main (){
     cout << int (litt) << endl; // 97
     cout << int (big) << endl; // 65
 }
+

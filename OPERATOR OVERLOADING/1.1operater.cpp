@@ -1,6 +1,6 @@
 // ________Operator overloading___________
 
-// -> it is a __Compile time polymorphism__
+// -> It is a __Compile time polymorphism__
 
 //-> Compile time polymorphism is implement through function overloading
 
@@ -20,6 +20,7 @@ void display(string name) {
 }
 
 
+
 void display(double salary) {
     cout << salary << endl;
 }
@@ -34,5 +35,6 @@ int main() {
 
    return 0;
 }
+
 
 
