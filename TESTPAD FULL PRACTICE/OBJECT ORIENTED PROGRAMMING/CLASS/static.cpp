@@ -3,8 +3,8 @@
 
 // The Syntax is
 
-// static < variable definition>
-// static < function definition>
+// static <variable definition>
+// static <function definition>
 
 
 // Examples are

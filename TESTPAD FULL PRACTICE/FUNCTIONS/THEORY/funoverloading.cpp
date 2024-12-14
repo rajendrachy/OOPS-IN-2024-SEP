@@ -6,42 +6,42 @@
 // If two functions have the same number of arguments and same types then they cannot be overloaded.
 
 
-#include<iostream>
-#include<cstdio>
-#include<cmath>
-// Include headers as needed
+// #include<iostream>
+// #include<cstdio>
+// #include<cmath>
+// // Include headers as needed
 
-using namespace std;
+// using namespace std;
 
-int find_Area ( int , int );
-float find_Area( double, double );
-float find_Area( double );
+// int find_Area ( int , int );
+// float find_Area( double, double );
+// float find_Area( double );
 
-int main( )
-{
-  int areaR;
-  float areaT;
-  float areaC;
-  areaR = find_Area(5,15);
-  areaT = find_Area(5.5,1.5);
-  areaC = find_Area(5.3);
-  cout<< "Area of rectangle is " << areaR<<endl;
-  cout<< "Area of triangle is " << areaT<<endl;
-  cout<< "Area of circle is " << areaC<<endl;
-  return 0;
-}
-int find_Area(int len , int bh)
-{
-  return ( len * bh );
-}
-float find_Area(double bs , double ht)
-{
-  return (0.5 * bs * ht );
-}
-float find_Area( double r)
-{
-  return ( 3.142857 * r * r );
-}
+// int main( )
+// {
+//   int areaR;
+//   float areaT;
+//   float areaC;
+//   areaR = find_Area(5,15);
+//   areaT = find_Area(5.5,1.5);
+//   areaC = find_Area(5.3);
+//   cout<< "Area of rectangle is " << areaR<<endl;
+//   cout<< "Area of triangle is " << areaT<<endl;
+//   cout<< "Area of circle is " << areaC<<endl;
+//   return 0;
+// }
+// int find_Area(int len , int bh)
+// {
+//   return ( len * bh );
+// }
+// float find_Area(double bs , double ht)
+// {
+//   return (0.5 * bs * ht );
+// }
+// float find_Area( double r)
+// {
+//   return ( 3.142857 * r * r );
+// }
 
 // Precautions for Function Overloading
 // a) Function prototypes must be declared before main ( );
@@ -49,21 +49,21 @@ float find_Area( double r)
 
 
 //_____________Example_____________________
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// void func(int x) {
-//     cout << "int version" << endl;
-// }
+void func(int x) {
+    cout << "int version" << endl;
+}
 
-// void func(double x) {
-//     cout << "double version" << endl;
-// }
+void func(double x) {
+    cout << "double version" << endl;
+}
 
-// int main() {
-//     func(5);    // Ambiguous: Can be int or double version
-//     return 0;
-// }
+int main() {
+    func(5);    // Ambiguous: Can be int or double version
+    return 0;
+}
 
 
 

@@ -11,7 +11,6 @@ string subject;
 string sal;
 
 
-
 //---> methods //----> member functions
 void changedept(string newdept) {
 
@@ -21,6 +20,8 @@ void changedept(string newdept) {
 void setsal (int s) {
 sal = s;
 }
+
+
 //-----> getter
 string getsal() {
     return sal;

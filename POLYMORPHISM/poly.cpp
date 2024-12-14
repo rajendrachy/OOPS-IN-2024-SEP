@@ -6,7 +6,7 @@
 
 
 
-// types of the polymorphism 
+// --------------Types of the polymorphism -----------------------
 // 1. static polymorphism -> function overload => compile time polymorphism
 //2. dynamic polymorphism -> function override
 

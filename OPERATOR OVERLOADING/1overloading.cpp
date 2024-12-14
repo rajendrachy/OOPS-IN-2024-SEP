@@ -25,11 +25,12 @@
 
 
 //__________________The general form of an operator function is______________________-
+//---Almost all the operators in C++ are overloaded except the following:----
 
-// 1. Class member access operators ( .  and  .*)
-// 2. Scope resolution Operator ( :: )
-// 3. Size operator (sizeof)
-// 4. Conditional operator ( ? : )
+// 1.) Class member access operators ( .  and  .*)
+// 2.) Scope resolution Operator ( :: )
+// 3.) Size operator (sizeof)
+// 4.) Conditional operator ( ? : )
 
 
 // Both Unary and Binary operators can be overloaded.

@@ -24,7 +24,7 @@ this->salary = orgobj.salary;
         this->subject = salary;
         this->salary = sal;
 
-        // thei ----->>> to access the object property  , it is automatic creating pointer
+        // this ----->>> to access the object property  , it is automatic creating pointer
         // *ptr --->> dereferencing operator
     }
 

@@ -1,4 +1,4 @@
-// _______________Binary to decimal_________________-
+// _______________Binary to decimal_________________
 
 #include<iostream>
 using namespace std;
@@ -12,6 +12,7 @@ int BinarytoDec(string str) {
   }
   return dec;
 }
+
 
 int main () {
     int t;

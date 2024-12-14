@@ -4,7 +4,8 @@
 //  :: (known as scope resolution operator), in the form of namespace::entityName.
 // A namespace can contain variables, functions, arrays, and compound types such as classes and structures.
 
-// all the standard C++ library components are packaged inside a namespace called std.
+// All the standard C++ library components are packaged inside a namespace called std.
+
 
 
 // _________Scope Resolution Operator______________
@@ -13,24 +14,29 @@
 //  For example,
 // _________________________________---------------------_______________---------------------
 
-// #include <iostream>
-// using namespace std;
 
-// // Global variable
-// int x = 5;
 
-// int main() {
-//   // A local variable having the Same name as a global variable,
-//   // which hides the global variable
-//   float x = 55.5f;
+#include <iostream>
+using namespace std;
 
-//   // Local
-//   cout << x << endl;
+// Global variable
+int x = 5;
 
-//   // Use unary scope resolution operator to retrieve the global variable
-//   cout << ::x << endl;
+int main() {
+  // A local variable having the Same name as a global variable,
+  // which hides the global variable
+  float x = 55.5f;
 
-//   return 0;
-// }
+  // Local
+  cout << x << endl;
+
+  // Use unary scope resolution operator to retrieve the global variable
+  cout << ::x << endl;
+
+  return 0;
+}
+
+
+
 
 

@@ -24,6 +24,7 @@ using namespace std;
 
 
 
+
 // _______________Using a function______________
 int result (int n) {
 

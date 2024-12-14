@@ -1,4 +1,4 @@
-// ______________Max Elwmwnt in the array_________________
+// ______________Max Elemwnt in the array_________________
 
 #include<iostream>
 using namespace std;

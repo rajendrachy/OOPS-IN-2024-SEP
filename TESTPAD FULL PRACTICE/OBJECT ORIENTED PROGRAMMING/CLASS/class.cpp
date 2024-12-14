@@ -23,7 +23,6 @@
 
 
 
-
 // The following example illustrates the class Circle declaration.
 
 // class Circle // class name
@@ -34,7 +33,6 @@
 // 	double getRadius(); // member functions
 // 	double showArea();
 // };
-
 
 
 
@@ -70,7 +68,7 @@
 // C1. showArea();
 
 
-// Another method of accessing members of a class is using the arrow operator ‘ - >’ 
+// Another method of accessing members of a class is using the arrow operator ‘ ->’ 
 // and will be discussed later.
 
 

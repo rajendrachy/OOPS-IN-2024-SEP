@@ -1,5 +1,5 @@
 //___________________There are two ways that a parameter can be passed into a function: pass by value vs. pass by reference._____________
-// 1. Pass by Value------------------------------
+// 1. -------------------- Pass by Value ------------------------------
 // #include <iostream>
 // using namespace std;
 
@@ -20,7 +20,7 @@
 
 
 
-// 2. Pass by value-------------------------------
+// 2. Pass by Reference-------------------------------
 // #include <iostream>
 // using namespace std;
 

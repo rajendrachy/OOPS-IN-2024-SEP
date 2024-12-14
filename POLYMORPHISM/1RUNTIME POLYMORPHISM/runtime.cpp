@@ -17,6 +17,7 @@ class B : public A {
     }
 };
 
+
 int main () {
     // Simple
 //    B obj;

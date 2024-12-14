@@ -1,7 +1,7 @@
 // __________________Array and Loop_______________________
 // Arrays work hand-in-hand with loops. 
 
-//________FOr each loop____________
+//________For Each loop____________
 // for (int number : numbers) {
     // code.......
 //   }

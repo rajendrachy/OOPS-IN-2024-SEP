@@ -20,6 +20,7 @@ class Teacher {
         dept = newDept;
     }
 
+
     //setter
     void setSalary(double s) {
         salary = s;
@@ -42,6 +43,7 @@ t1.setSalary(25000);
 
 cout << t1.name <<endl;
 cout << t1.getSalary() << endl;
+
 return 0;
 }
 

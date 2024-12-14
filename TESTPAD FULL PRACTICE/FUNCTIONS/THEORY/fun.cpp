@@ -1,5 +1,5 @@
 // _________________Functions_______________________________
-//At times, a certain portion of codes has to be used many times. Instead of re-writing the codes many times
+// At times, a certain portion of codes has to be used many times. Instead of re-writing the codes many times
 
 //The benefits of using functions are:-------------------
 // 1. Divide and conquer
@@ -9,12 +9,12 @@
 
 
 // // Function Prototype (Function Declaration)
-// ---->>>> double getArea(double radius);
+// ---->>>> double getArea(double radius)--------------------------;
 
 
 
 
-// The syntax for function definition is as follows:
+// ---------------The syntax for function definition is as follows:----------------------
 
 // returnValueType functionName ( parameterList )
 // {
@@ -45,8 +45,8 @@
 
 
 
-// You could optionally include the parameter names in the function prototype. The names will be ignored by the compiler,
-// Function Prototype
+// You could optionally include the parameter names in the function prototype. The names will be ignored by 
+//the compiler, Function Prototype
 // double getArea(double radius); // parameter names are ignored, but serve as documentation
 // int max(int number1, int number2);
 
@@ -54,7 +54,8 @@
 
 
 // ______________________The "void" Return Type________________
-// Suppose that you need a function to perform certain actions (e.g., printing) without a need to return a value to the caller, you can declare its return-value type as void. 
+// Suppose that you need a function to perform certain actions (e.g., printing) without a need to return a value 
+// to the caller, you can declare its return-value type as void. 
 
 
 
@@ -96,7 +97,8 @@
 
 
 //2. _____________Formal Parameter_______________
-// -->> In the above example, the variable (double radius) declared in the signature of getArea(double radius) is known as formal parameter. Its scope is within the function's body
+// -->> In the above example, the variable (double radius) declared in the signature of getArea(double radius) 
+// is known as formal parameter. Its scope is within the function's body.
 
 
 // 

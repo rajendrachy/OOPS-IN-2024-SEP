@@ -14,7 +14,7 @@
 
 
 
-// 2.-------------------Check for empty string:-------------------
+// 2.  -------------------Check for empty string:-------------------
 // bool empty();
 //    Check if the string is empty.
 // string str1("Code Quotient");

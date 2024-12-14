@@ -15,6 +15,7 @@ class Teacher {
         this->name = name;
         this->subject = salary;
         this->salary = sal;
+        
 
         // this ----->>> to access the object property, it is automatic creating pointer
         // *ptr --->> dereferencing operator
