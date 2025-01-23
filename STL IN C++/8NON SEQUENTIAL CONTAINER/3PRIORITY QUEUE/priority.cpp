@@ -19,8 +19,8 @@ using namespace std;
 
 
 int main () {
-    priority_queue<int> q; // Greater to Smaller
-    //priority_queue<int, vector<int>, greater<int>> q; // Smaller to Greater
+    // priority_queue<int> q; // Greater to Smaller
+    priority_queue<int, vector<int>, greater<int>> q; // Smaller to Greater
 
     q.push(5);
     q.push(3);

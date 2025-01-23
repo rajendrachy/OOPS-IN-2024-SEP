@@ -125,7 +125,7 @@ int main()
     s.insert(5);
 
   cout << "Lower Bound : " << *(s.lower_bound(4)) << endl; // 4 // if existe equal to that value , if not the output will be greater than that  && if 
-   // there is not greater than that value then the output will be s.end() i.e garbage valur or 0
+   // there is not greater than that value then the output will be s.end() i.e garbage value or 0
 
   cout << "Upper Bound : " << *(s.upper_bound(4)) << endl; // 5  // greater then that value not equal to that value
  // lower and upper bound is count when the vector is in the shorted order only

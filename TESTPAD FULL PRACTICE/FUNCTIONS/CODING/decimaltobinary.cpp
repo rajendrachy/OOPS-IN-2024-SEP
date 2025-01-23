@@ -14,6 +14,7 @@ string DecToBinary(int num) {
     num /= 2;  // Divide number by 2
   }
   
+  
   return binary;
 }
 

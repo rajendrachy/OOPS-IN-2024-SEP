@@ -46,7 +46,7 @@ int main () {
 
    
     for(int val : l) {
-        cout << val << " " ; // 5 3 1 2
+        cout << val << " " ; 
     }
 
 

@@ -41,19 +41,19 @@ using namespace std;
 
 
 
-int main() {
+// int main() {
 
-    vector<int> vec = {1, 2, 3, 4, 5}; 
-    vector<int> vec2(vec);
+//     vector<int> vec = {1, 2, 3, 4, 5}; 
+//     vector<int> vec2(vec);
 
     
-    for(int val : vec2) {
-        cout << val << " ";
-    }
-    cout << endl;
+//     for(int val : vec2) {
+//         cout << val << " ";
+//     }
+//     cout << endl;
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 

@@ -134,22 +134,22 @@ using namespace std;
 
 // _____________Reverse___________________
 
-// int main () {
+int main () {
 
-//    vector<int> vec = {1, 2, 3, 4, 5};
-//    //reverse(vec.begin(), vec.end());
+   vector<int> vec = {1, 2, 3, 4, 5};
+   //reverse(vec.begin(), vec.end());
 
-//   reverse(vec.begin()+1, vec.begin()+3); // Reverse in the range
+  reverse(vec.begin()+1, vec.begin()+3); // Reverse in the range
 
-//    for(auto val : vec) {
-//     cout << val << " ";
+   for(auto val : vec) {
+    cout << val << " ";
 
-//    }
-//    cout << endl;
+   }
+   cout << endl;
 
-//     return 0;
+    return 0;
 
-// }
+}
 
 
 
@@ -158,15 +158,15 @@ using namespace std;
 
 // _______________Next Permutation________________
 
-int main () {
+// int main () {
 
-    string s = "abc";
+//     string s = "abc";
 
-    next_permutation(s.begin(), s.end());
-    // prev_permutation(s.begin(), s.end());
-    cout << s << endl;
-    return 0;
-}
+//     next_permutation(s.begin(), s.end());
+//     // prev_permutation(s.begin(), s.end());
+//     cout << s << endl;
+//     return 0;
+// }
 
 
 

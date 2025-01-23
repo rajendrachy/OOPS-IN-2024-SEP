@@ -1,6 +1,5 @@
 // _____________C++ : Arrays & Strings_____________
 
-//MCQ ->https://chatgpt.com/share/675be2e2-09d8-800b-9deb-0abb46ea63e3
 //_________Array Declaration and Usage_____
 
 // An array is a list of elements of the same type, identified by a pair of square brackets [ ]. 
